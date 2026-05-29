@@ -1,0 +1,28 @@
+* text=auto
+
+# HTML
+*.html linguist-language=html
+
+# CSS
+*.css linguist-language=css
+
+# JavaScript
+*.js linguist-language=javascript
+
+# JSON
+*.json linguist-language=json
+
+# Markdown
+*.md linguist-language=markdown
+
+# Media files (don't count as code)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+
+# Vendor files (don't count as code)
+vendor/** linguist-vendored
+node_modules/** linguist-vendored
